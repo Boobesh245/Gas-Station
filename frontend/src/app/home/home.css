@@ -1,0 +1,46 @@
+body{
+  position: relative;
+  scroll-behavior: smooth;
+
+  background-image: url("https://i.pinimg.com/1200x/c1/58/fe/c158febb614036e1eb3d79f182f9a103.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section{
+  padding:80px 0;
+  color:white;
+}
+
+/* nav bar section */
+
+.custom-navbar{
+  background: rgba(20,20,40,0.9);
+  border-radius:50px;
+}
+
+.navbar .nav-link{
+  color:white;
+  margin-left:15px;
+}
+
+.navbar .nav-link.active{
+  color:#4ea3ff !important;
+  border-bottom:2px solid #4ea3ff;
+}
+/* card hover efforts */
+.card:hover{
+  background:transparent;
+  transform:translateY(-10px);
+  transition:0.3s;
+}
+
+ 
+/* footer */
+
+footer{
+  padding:20px;
+  text-align:center;
+}
